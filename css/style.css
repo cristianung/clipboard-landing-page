@@ -302,12 +302,12 @@ body {
   .social-box__icon {
     width: 2.4rem;
     height: 2.4rem;
-    color: #9eabb2;
-    transition: all 0.2s; }
+    transition: all 0.2s;
+    color: #4b545b; }
     .social-box__icon:hover {
       color: var(--color-primary-strong-cyan); }
     .social-box__icon:active {
-      color: #9eabb2; }
+      color: #4b545b; }
 
 @media only screen and (max-width: 770px) {
   .footer-box {
