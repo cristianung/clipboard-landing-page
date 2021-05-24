@@ -1,0 +1,34 @@
+:root {
+    --color-primary-strong-cyan: hsl(171, 66%, 44%);
+    --color-primary-light-blue: hsl(233, 100%, 69%);
+
+    --color-neutral-dark-gb: hsl(210, 10%, 33%);
+    --color-neutral-light-gb: hsl(201, 11%, 66%);
+
+    --font-primary: 'Bai Jamjuree', sans-serif;
+    --heading-color: var(--color-neutral-dark-gb);
+    --paragraph-color: var(--color-neutral-light-gb);
+}
+
+$bp-large: 1000px;
+$bp-medium: 770px;
+$bp-small: 375px;
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+}

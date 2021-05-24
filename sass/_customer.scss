@@ -1,0 +1,17 @@
+.customer-box {
+    max-width: 111rem;
+    min-height: 7.2rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: $bp-medium) {
+    .customer-box {
+        flex-direction: column;
+        min-height: 43.9rem;
+    }
+}

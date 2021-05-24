@@ -1,0 +1,44 @@
+.button-box {
+    margin: 0 auto;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 3rem;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 1.3rem 3.6rem;
+    color: #fff;
+    border-radius: 2.8rem;
+    transition: all 0.2s;
+
+    &:hover {
+        opacity: 0.7;
+    }
+
+    &:active {
+        opacity: 1;
+    }
+
+    &--green {
+        background-color: var(--color-primary-strong-cyan);
+        box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+    }
+
+    &--blue {
+        background-color: var(--color-primary-light-blue);
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+    }
+}
+
+@media only screen and (max-width: $bp-medium) {
+    .button-box { width: 90%; }
+
+    .btn {
+        display: block;
+        width: 100%;
+        margin-bottom: 2.4rem;
+    }
+}
