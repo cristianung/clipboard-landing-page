@@ -29,7 +29,7 @@ Design:
 
 ### Links
 
-- Solution URL: [Click here!](https://www.frontendmentor.io/solutions/fylo-data-storage-component-flexboxkeyframes-QG7chf5fz)
+- Solution URL: [Click here!](https://www.frontendmentor.io/solutions/clipboard-landing-page-solution-flexbox-grid-rFqWKFyiR)
 - Live Site URL: [Click here!](https://eloquent-neumann-d6be2e.netlify.app/)
 
 ## My process
